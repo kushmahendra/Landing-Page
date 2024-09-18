@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <!-- Preload critical CSS for performance -->
+    <link rel="preload" href="style.css" as="style">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Main header section -->
+    <header class="header">
+        <nav aria-label="Main Navigation" class="nav">
+          <a href="/" aria-label="Home" rel="home" class="logo">
+            <img src="Logo.png" alt="Building logo" class="logo-img" />
+          </a>
+          <div class="nav-links">
+            <a href="#about" aria-label="About us" class="nav-item">About</a>
+            <a href="#projects" aria-label="Projects" class="nav-item">Projects</a>
+            <a href="#agents" aria-label="Agents" class="nav-item">Agents</a>
+            <a href="#services" aria-label="Services" class="nav-item">Services</a>
+            <img src="search-normal.png" alt="search icon" class="search-icon" />
+          </div>
+          <div>
+            <button aria-label="Contact Us" class="contact-btn">ContactUs</button>
+          </div>
+        </nav>
+      </header>
+      <main class="main-section">
+        <!-- Main content with accessible inputs and improved semantics -->
+        <section class="content-section">
+          <p class="welcome-text">Welcome to Real Estate</p>
+          <h1 class="heading">Manage Your Property</h1>
+          <form action="/" method="POST" aria-label="Email Subscription">
+            <input type="email" id="email" name="email" placeholder="Enter your email"
+            class="email-input" required />
+          </form>
+        </section>
+        <img src="Group 2.png" alt="Building view" class="main-image"/>
+      </main>
+   
+      <section aria-labelledby="features" class="features-section">
+        <h2 class="features-title">Key Features</h2>
+        <div class="features-container">
+          <article>
+            <img src="messages.png" alt="Message Icon" />
+            <h3 class="feature-heading">Answer Questions</h3>
+            <p>Build and manage your property with ease! 🏗️🏡 Our expert team handles everything from development to tenant services, ensuring hassle-free property management.</p>
+          </article>
+          <article>
+            <img src="sms-tracking.png" alt="SMS Tracking" />
+            <h3 class="feature-heading">Select a Quote</h3>
+            <p>Track your property's progress with real-time SMS updates! 🏗️📲 Stay informed on every step, from construction to management, hassle-free.</p>
+          </article>
+          <article>
+            <img src="edit-2.png" alt="Edit Icon" />
+            <h3 class="feature-heading">Get Registered</h3>
+            <p>Get registered today to streamline your property building and management process! 🏗️📋 Our expert team ensures efficient handling from start to finish.</p>
+          </article>
+        </div>
+      </section>
+     
+        <section aria-labelledby="projects-section" class="projects-section">
+          <h2 class="section-title">Our Recent Projects</h2>
+          <div class="projects-grid">
+            <article class="project-card">
+              <div class="project-image">
+                <img 
+                  src="house-model1.png" 
+                  alt="Sobha Hearland I Villa" 
+                  loading="lazy" 
+                  class="image"
+                />
+              </div>
+              <div class="project-info">
+                <h3 class="project-title">Sobha Hearland I Villa</h3>
+                <p class="project-description">Discover your dream villa—a brand-new, luxurious home offering modern living in serene surroundings!</p>
+              </div>
+            </article>
+        
+            <article class="project-card">
+              <div class="project-image">
+                <img 
+                  src="house-model-2.png" 
+                  alt="Sobha Hearland II Villa" 
+                  loading="lazy" 
+                  class="image"
+                />
+              </div>
+              <div class="project-info">
+                <h3 class="project-title">Sobha Hearland II Villa</h3>
+                <p class="project-description">Experience luxury living in our modern villas, where elegance meets comfort in every corner.</p>
+              </div>
+            </article>
+        
+            <article class="project-card">
+              <div class="project-image">
+                <img 
+                  src="house-model-3.png" 
+                  alt="Sobha Hearland III Villa" 
+                  loading="lazy" 
+                  class="image"
+                />
+              </div>
+              <div class="project-info">
+                <h3 class="project-title">Sobha Hearland III Villa</h3>
+                <p class="project-description">Discover luxury living with our exquisite villas, offering unparalleled comfort and elegance.</p>
+              </div>
+            </article>       
+          </div>
+        </section>
+    
+        <section class="bg-light-brown">
+          <h1 class="main-heading">We are a global, boutique real estate brokerage</h1>
+          <div class="content-wrapper">
+            <div class="text-section">
+              <div class="info-box">
+                <h2 class="sub-heading">The Transfer of Real Estate</h2>
+                <p class="info-text">
+                  The transfer of real estate involves the legal process of changing ownership from one party to another. 
+                  This process typically includes a series of steps such as conducting title searches, drafting and signing transfer documents, 
+                  and recording the transaction with the appropriate government office. The transfer ensures that the new owner has clear and legal 
+                  rights to the property, facilitating the seamless transition of property ownership.
+                </p>
+              </div>
+              <div class="buttons">
+                <button class="btn-primary">Book Now!</button>
+                <button class="btn-secondary">Read More</button>
+              </div>
+              <div class="service-summary">
+                <div>
+                  <h1 class="service-number">12+</h1>
+                  <p class="service-label">Customer</p>
+                </div>
+                <div>
+                  <h1 class="service-number">14+</h1>
+                  <p class="service-label">Offices</p>
+                </div>
+                <div>
+                  <h1 class="service-number">10+</h1>
+                  <p class="service-label">Students</p>
+                </div>
+              </div>
+            </div>
+            <div class="image-section">
+              <img src="Group 20.png" alt="Discussion Image" class="image">
+            </div>
+          </div>
+        </section>
+        
+        <section aria-labelledby="newsletter" class="footer-section">
+          <div class="newsletter-container">
+            <h2 class="newsletter-heading">Subscribe to Our Newsletter</h2>
+            <p class="newsletter-text">
+              Stay updated with the latest in real estate! Subscribe to our newsletter for exclusive property listings, expert tips, and market insights.
+            </p>
+            <form action="/" method="POST" aria-label="Newsletter Subscription">
+              <div class="newsletter-form">
+                <input type="email" id="newsletter-email" name="email" placeholder="Enter your email" class="email-input" required />
+                <button type="submit" class="subscribe-button">Subscribe</button>
+              </div>
+            </form>
+          </div>
+          <img src="isometric.png" alt="Newsletter visual" loading="lazy" class="newsletter-image" />
+        </section>
+       
+
+
+        <footer>
+          <div class="footer-container">
+            <div class="footer-column">
+              <h2>Company</h2>
+              <ul>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+              </ul>
+            </div>
+            <div class="footer-column">
+              <h2>Follow Us</h2>
+              <ul class="social-media">
+                <a href="#"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAD30lEQVR4AayShW4cMRCGLQgzHArKDK9xor5KnyDMSZmZmZmZRWWuKMy8e3y7U8/KvXG6PlR+6dM3Wtv/tElYulnzHXI918HnvQZ7PNfgGfdvz1XQEJzFtz14B++y+crCO+D2XoG97ssw475swhwuGWSOK26T3zX24luWbZbehTxe1uS+YOiuCzGwOB+3mA2yAvcFU8cO7Mrsf30R3Lz4nfMcL+eglZyNkm3QGXZhJ0snzrOw3nE61uc4zQs4wmKOxC3PaIszZA4/I2On6zSsY8ni4P9Kx6loX/WJMCCOk5G47dCZ+r79HLtxR8LfueN45F318TDEORYiW4TJHBcvbf8QhT/TJoRiJkQME2bCJvRpJnwaM8TbuX24Q/k3wS82VR0JwRwOB8nSjF5xJgRvhgxIEtEj3kngLibHcQzc1YdDetWhICSj8iD5UW8MUsX+PoBGdNzJ/qXqQHBv5f4AVHCEBX4yp1LMG26EIJ2I+2hpFn18J8OsuQi5lXv9MxV7/ZAul35HIY0k7cCduJtV7tN95bt0sNgdt5g1sjR/GrX/+E9+j8DyI35xV7eh6q/cpftY2Q5tDwfSoVxYj5jwf5Yf4qV0j+bknXtY2bbZZxxIh9KtlkERfjaD52QFcgdSvl17xkq3zP4u3TwDSAlZAZ2pgmeZgrtZ6aZpraRrGpR0kuVZFTpXv1eBu1lpx5RW3DEFFu1kmWzSM21AiehC04wWc/uUxorbpn4XtU6CiuLWKcvZ5HVPxN7ZQkZwNytqnnxW1DwBSGETWSabnPsSkjuV4G5W2DC+hwPJyCZdL/22ngLJYt7DihonfAW1Y2BRR5bJJhtvaeL9OFoJ7mZrGiC3sHb8b6vlcdswFATRL2ZCDagAX12H+3DOOWe7A8d2fFQZlsRMXpzu6z8kVnGdPcDgDbRJ5InP/nFB3lFOTMlck1TVuW8gD8wzcRO3FeQfFvfeQUbeQU5M2K0yOGBJXlVjcmaO1HFTsernecPZTd/c3ZQ0CeTM7M+S3L0MNWbpT/a94abql7ebXDrburidECiZa5LsspZUZO+kzNI2Z31r9JPsmlx7M2namzHZG7J1vaQkp6qBff09csYN3FKS6jt5w1mPA2stos8sCb/b6zFzIPMcduOG+kzORjpurUaBtRKRuRwSsz8LqnpWQuaoV8MAu9V3VF/MG9Zi2DQXAxrwUlhSENeZA7aWwyY/+bc1tkKu/hOXxkLwZswHVLlTUlINNW0mjFnswC71W+FtGLOd+9ps+7k2qw/MtEmSrlNZB+c6z5jBrPo3nZNjzXQm1FTrjgSp6dYDakr3oFd9U+9y1lO9tTZT6gAAAABJRU5ErkJggg==" alt="Facebook Image" /></a>
+                <a href="#"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAABRFBMVEVHcEz4D5n9oAf9lAftEKn7lBXhA8VwFf3TPJF3Fv39tgX9egV9GvnpA7b9OFx2GPn7SUH9KXX9UjH////+AWH+Arv+wQPkANL+ygD9BKv+AZP+A27+Mkj/9fP+AYj+XS3+aRj+AXr+cJn+7/ubEvz+YQHUANn+J3Z6FPyIFPv+jQL+Tg/CAd6rAuX/vMT/17P0Asn/ruj+sQD+G3/+Pj3+SjX+dhz/vOD0bt3+ugD+Kmb+dwThGun+PST/y8r+xG3+GpL/rMr9D57+hAKUBuv+LlX+ghX+GGT+Bkb+IVb/s9b+X8P+nwHtAL3+pwH+lgOxEPvGGPXfYeb/xLbzFtHzAKr+N1r/6OH+Kzb7GLf+clD+fIL2uPH+WqP93/f+0O/+Vmb+im/oSOH+LLf+nTT+ylv+qV39Qcj+znvSgfr+mYnWgvrfdhN0AAAAE3RSTlMAx8/PX13K/gnMxsZdzdJhXcrGWouHNAAAAjlJREFUKJFN0utXokAYwOFptzL31u6+mMtVEImC1UxADRYjvGtq5a2Laff28v9/33ewzun3YTiHB2YGzhBCyGY8Fovt7OzWarVsNvsT295eXyW0jXgku6+yTUsmk+sbiPEdSpkaleXtqF7vMyGfIspkT8+wMu1ulM/ne73eeJXEKWX+qPAmtZxPJMbjFYKSOZkBzGf7L83mAPsJlh2H5AT7B+pdMo9Pv/SsQpkNOY6cYircJUfUWErdxfM9qBzHSeQXBvPkKHHBsvfd7j3LLmARziGUJIXiGcx6SGGJbqbEdhddrgTXkqKQ0ShfxjthGKigdjo44GJcB64VnicXF2wXOpKllKAkSRy+U8LVjiDN8wwJgiANR7yug6hYViBJKgSSgsgg6nozDbl2GwdG1y1LiWakyDCkXheuIHdOh7br6jqPyDMvKAjnVzD07RsQhcnEdZsi6Mwr2r5P0fErUBGEehsvTLMVIU9837yFoZlKpUQQczkc6u12K7dE0zQvYU+TZTlVoT+hMhEEAfGG4RVialoRpppXLBbly9vbS8exbaE1BZeihonwUK02Gg10nN5xznF3rSYvEc3zvEMQH4yBYVSrnifLuI4I6VbT4ojsVQ1jD2C6t2w4rEwBP7zetALysWoMjo9/i2+PifjXt+uutULW0PqFQmHr8fEw6umpqJmOLbg6Ht33aAcHW1EHhUJ/YDRwW44w+UYP9bsCpR80yv1BAzft2F82ojO/9mFJS+0f01e/f0X4DzXfhmzQgNUBAAAAAElFTkSuQmCC" alt="Instagram Image" /></a>
+                <a href="#"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABDUlEQVR4AWP4////gOLB44D6nTcsGIo33QHi/zTGd0B2YTiAPpYjHIHNAf/piQk6wGPW8f/rLz8HYRCbXg5AWI4GQGJ0cwDY12gAJDbcHUA4CkZAIqQUK7Ts/m/SfxBMs5RupswBaACr+P47b/5zlG/5DyzZ/r/+8hNF7vuvP//nn3r0X6JhJ+0ccPrR+/+H7735jw9cf/n5v0D1Nuo5gBxQve06zR0AjoL7b7/+//zjN4bc+ScfaOeA33///k9Yfg4mDw7u/Xdeo6uhnQP6D93FMNxlxjF0ZbRzgMXEQ9iyI90cALIMJoccDXRzAK6CZog6YNQBow6gIx54Bwx4x2RAu2bAysoEZu9o7xgAQrvkxt3WZi0AAAAASUVORK5CYII=" alt="LinkedIn Image" /></a></li>
+                <a href="#"><img src="data:image/jpeg;base64,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" alt="Twitter Image" /></a>
+            
+              </ul>
+            </div>
+            <div class="footer-column">
+              <h2>Contact Us</h2>
+              <p class="email">Email: <a href="mailto:info@example.com">kushwahamahendra691@gmail.com</a></p>
+              <p>Phone: <a href="tel:+1234567890">+91 6265429356</a></p>
+            </div>
+          </div>
+          <p class="copyright">&copy; 2024 Loyal Company. All rights reserved.</p>
+        </footer>
+        
+</body>
+</html>
