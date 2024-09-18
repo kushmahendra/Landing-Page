@@ -1,9 +1,8 @@
-/* General Styles */
 body {
     margin: 0;
     font-family: 'Arial', sans-serif;
 }
-/* General reset */
+
 * {
     margin: 0;
     padding: 0;
@@ -20,7 +19,6 @@ body {
     color: white;
   }
   
-  /* Navigation styles */
   .nav {
     display: flex;
     flex-direction: row;
@@ -30,7 +28,6 @@ body {
     padding: 0.5rem 1rem;
   }
   
-  /* Logo styles */
   .logo {
     text-decoration: none;
     font-weight: bold;
@@ -58,7 +55,6 @@ body {
     }
   }
   
-  /* Navigation links container */
   .nav-links {
     display: flex;
     flex-direction: row;
@@ -87,8 +83,7 @@ body {
       padding: 1rem 4rem;
     }
   }
-  
-  /* Navigation link styles */
+
   .nav-item {
     text-decoration: none;
     color: white;
@@ -101,7 +96,6 @@ body {
     }
   }
   
-  /* Search icon */
   .search-icon {
     width: 0.75rem;
   }
@@ -112,7 +106,7 @@ body {
     }
   }
   
-  /* Contact button styles */
+
   .contact-btn {
     border: 1px solid white;
     border-radius: 1rem;
@@ -150,7 +144,6 @@ body {
   }
 }
 
-/* Content section styles */
 .content-section {
   display: flex;
   flex-direction: column;
@@ -173,7 +166,6 @@ body {
   }
 }
 
-/* Welcome text */
 .welcome-text {
   font-size: 1.125rem;
 }
@@ -184,7 +176,6 @@ body {
   }
 }
 
-/* Heading styles */
 .heading {
   font-size: 2.5rem;
   font-weight: 600;
@@ -202,7 +193,6 @@ body {
   }
 }
 
-/* Email input styles */
 .email-input {
   background-color: #ccd5ae;
   padding: 0.5rem 1rem;
@@ -219,7 +209,6 @@ body {
   }
 }
 
-/* Main image styles */
 .main-image {
   width: 100%;
   margin-right: 1rem;
@@ -243,7 +232,7 @@ body {
 
 
 
-/* Container for the 3 divs */
+/* Container  */
 .features-section {
   background-color: #e9d8a6;
   padding: 2.5rem 0;
@@ -275,8 +264,6 @@ body {
   font-size: 1.25rem;
 }
 
-
-/* Container styling */
 .projects-section {
   background-color: #ecf39e;
   padding: 2.5rem 1.5rem;
@@ -453,9 +440,6 @@ body {
   width: 100%;
   max-width: 24rem;
 }
-
-
-
 
 
 .footer-section {
