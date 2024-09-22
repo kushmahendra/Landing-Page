@@ -1,4 +1,5 @@
-#🌐 Landing Page
+# 🌐 Landing Page
+
 Welcome to the Landing Page project! This project is designed to showcase a responsive and visually appealing landing page using only HTML and CSS. It emphasizes modern web design principles with a focus on responsiveness, layout structure, and clean design.
 
 **🚀 Live Demo**
@@ -37,7 +38,7 @@ To run this project locally, follow these steps:
 
 Clone the repository:
 
-**git clone** 
+**git clone**  https://github.com/kushmahendra/Landing-Page.git
 Navigate to the project directory:
 
 cd landing-page
