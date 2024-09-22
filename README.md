@@ -6,7 +6,7 @@ Welcome to the Landing Page project! This project is designed to showcase a resp
 
 Check out the live version of the landing page here:
 
-Live Project Link 🌐 👉  
+Live Project Link 🌐 👉  https://kushmahendra.github.io/Landing-Page/
 
 **📜 Features**
 
@@ -39,6 +39,7 @@ To run this project locally, follow these steps:
 Clone the repository:
 
 **git clone**  https://github.com/kushmahendra/Landing-Page.git
+
 Navigate to the project directory:
 
 cd landing-page
